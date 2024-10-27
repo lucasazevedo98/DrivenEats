@@ -1,0 +1,247 @@
+body {
+    background-color: #eceaea;
+}
+
+header {
+    background-color: #CF2B2B;
+    height: 92px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.topo {
+    color: #FFFFFF;
+    margin-left: 15px;
+    margin-top: 10px;
+    
+}
+
+.topo h1 {
+    font-size: 44px;
+    font-family: "Righteous";
+}
+
+.topo p {
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+.conteudo {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.conteudo h1 {
+    font-size: 26px;
+    color: #333333;
+    font-family: "Righteous";
+    margin-top: 20px;
+
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column ;
+    flex-wrap: wrap;
+    font-family: "Roboto";
+    margin-left: 10px;
+
+}
+
+.itens {
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    width: 100%;
+    position: relative;
+
+}
+
+.item {
+    height: 200px;
+    width: 150px;
+    background-color: #FFFFFF;
+    margin: 5px;
+    padding: 3px;
+    padding-top: 5px;
+    border-radius: 9px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border: 3px solid #ffffff;
+    cursor: pointer;
+    
+    
+
+
+}
+
+.item img {
+    height: 87px;
+    width: 144px;
+    border-radius: 4px;
+}
+
+.item h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.item h3 {
+    font-size: 15px;
+    font-weight: 100;
+    color: #a6a6a6;
+    margin-top: 10px;
+}
+
+.item p {
+    position: absolute;
+    bottom: 15px;
+    font-family: "Roboto";
+}
+
+.selecionado {
+    border: 3px solid #32B72F;
+}
+
+footer {
+    height: 92px;
+    background-color: #FFFFFF;
+    position: fixed;
+
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: 1px ;
+}
+
+.botao {
+    width: 364px;
+    height: 61px;
+
+    background-color:#CBCBCB ;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.btn {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-confirma {
+    width: 364px;
+    height: 61px;
+
+    background-color:#32B72F ;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;    
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.mostrar {
+    display: flex;
+}
+
+.esconder {
+    display: none;
+}
+
+
+.confirmacao {
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    opacity: 0.5;
+    
+}
+
+
+.quadro-pedido {
+    width: 377px;
+    height: 353px;
+    border-radius: 9px;
+    background-color: #50D074;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 9px;
+    z-index: 3;
+    font-family: "Roboto";
+
+    
+}
+
+.quadro-pedido p {
+    font-size: 22px;
+    margin-top: 20px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.quadro-pedido h2 {
+    font-size: 22px;
+    margin-top: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.conf {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pedir-pedido {
+    width: 329px;
+    height: 52px;
+    background-color: #FFFFFF;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+    color: #50D074;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 22px;
+    cursor:pointer;
+    margin-top: 15px;
+}
+
+.cancelar-pedido {
+    background-color: #50D074;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
